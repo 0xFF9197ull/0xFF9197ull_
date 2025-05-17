@@ -16,7 +16,7 @@ for k in range(0,step):
     ques=calc(minimum,maximum,answer)
     question.append(ques)
 #print(question,answer)
-with open ('C:\\Users\\JT\\Desktop\\算数.txt','w+',encoding='UTF-8') as file:
+with open ('C:\\Users\\Administrator\\Desktop\\算数.txt','w+',encoding='UTF-8') as file:#注意替换为自己想要的路径
     file.write("[Question]"+'\t\t\t\t'+'[Answer]'+'\n')
     for k in range(0,len(question)):
         writeContain=question[k]+"\t\t"+answer[k]+"\n"
